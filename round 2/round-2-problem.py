@@ -193,7 +193,7 @@ if __name__ == '__main__':
 
 	#First, we will define all the variables that are used
 	# n = fractional denominator, act_deg=active degree and pass_deg = passive degree
-	n,act_deg,pass_deg = map(int,input().split())
+	n,act_deg,pass_deg = map(int,input("Enter three space seperated integers: ").split())
 
 	#Contains set of fractional value used
 	values = [Fraction(i,n) for i in range(n+1)]
