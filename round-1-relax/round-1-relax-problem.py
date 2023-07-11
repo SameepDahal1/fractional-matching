@@ -170,8 +170,6 @@ if __name__ == '__main__':
 
 	printConfigs(active_config, passive_config)
 
-	for label in sigma:
-		print(label, labelMap[label])
 		
 
 	
